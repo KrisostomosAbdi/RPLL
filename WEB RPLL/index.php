@@ -68,7 +68,7 @@
 
 								<li>
 									<div class="header-icons">
-										
+
 									</div>
 								</li>
 							</ul>
@@ -328,7 +328,7 @@
 				<div class="col-lg-6 col-md-12">
 					<div class="abt-text">
 						<p class="top-sub">Since Year 2021</p>
-						<h2>We are <span class="orange-text">PetShop</span></h2>
+						<h2>We are <span class="orange-text">PetDictive</span></h2>
 						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
 						<a href="about.html" class="boxed-btn mt-4">know more</a>
