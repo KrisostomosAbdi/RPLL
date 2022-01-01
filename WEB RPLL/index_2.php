@@ -123,7 +123,7 @@
 								<p class="subtitle">Love and Cherish</p>
 								<h1>Just Love Them, Give the Best For Them</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">PetShop Collection</a>
+									<a href="shop.html" class="boxed-btn">PetDictive Collection</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>
