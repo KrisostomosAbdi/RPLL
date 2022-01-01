@@ -61,12 +61,16 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="index.php">Home</a>
-								</li>
+								<li class="current-list-item"><a href="#">Home</a></li>
 								<li><a href="about.html">About</a></li>
 
 								<li><a href="contact.html">Contact</a></li>
 
+								<li>
+									<div class="header-icons">
+										
+									</div>
+								</li>
 							</ul>
 						</nav>
 						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
