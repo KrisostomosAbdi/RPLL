@@ -75,7 +75,7 @@ if (isset($_POST["login"])) {
 <!--Navbar-->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-gradient-warning">
   <div class="container-fluid">
-  	<a class="navbar-brand" href="../index.php" style="color:white">
+  	<a class="navbar-brand" href="../index.php" style="color:black">
       BACK TO MENU
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,23 +104,14 @@ if (isset($_POST["login"])) {
 			<div class="carousel-inner">
 				<div class="carousel-item active animate__animated animate__slideInRight" style="margin-top: -189px;">
 					<img id="carousel1" src="..\assets\img\banner1.png" class="d-block w-100" alt="..." style="height: 734px;">
-					<div class="carousel-caption">
-						<h1 class="display-4 animate__animated animate__fadeInUp" id="carouselh1">Welcome to Module.org</h1>
-						<hr class="line" id="line">
-						<p class="textcar animate__animated animate__fadeInDown" style="font-weight: bold;" id="carouselp">This website provides module for any subject</p>
-					</div>
 				</div>
-				<div class="carousel-item animate__animated animate__slideInRight" style="margin-top: -119px;">
-					<img id="carousel2" src="carousel2.jpg" class="d-block w-100" alt="..." style="height:100%; width:auto;";>
-					<div class="carousel-caption">
-						<h1 class="display-4 animate__animated animate__fadeInUp" id="carouselh12">Our website provides module for any subject in any grade</h1>
-					</div>
+				<div class="carousel-item animate__animated animate__slideInRight" style="margin-top: -189px;">
+					<img id="carousel2" src="..\assets\img\breadcrumb-bg.jpg" class="d-block w-100" alt="..." style="height: 734px;">
+
 				</div>
-				<div class="carousel-item animate__animated animate__slideInRight" style="margin-top: -119px;">
-					<img id="carousel3" src="carousel3.jpg" class="d-block w-100" alt="..." style="height:100%; width:auto;";>
-					<div class="carousel-caption">
-						<h1 class="display-4 animate__animated animate__slideInDown" id="carouselh13">Every module can be downloaded in pdf file for free</h1>
-					</div>
+				<div class="carousel-item animate__animated animate__slideInRight" style="margin-top: -189px;">
+					<img id="carousel3" src="..\assets\img\banner1.png" class="d-block w-100" alt="..." style="height: 734px;">
+
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -137,7 +128,7 @@ if (isset($_POST["login"])) {
 	<div class="login">
 		<div class="second">
 		<form action="" method="POST">
-		<h1 style="margin: 10px;color: white; padding-bottom:20px;">Login</h1>
+		<h1 style="margin: 10px;color: black; padding-bottom:20px;">Login</h1>
 
                 Username
                 <input type="text" name="username" id="username"><br><br>
