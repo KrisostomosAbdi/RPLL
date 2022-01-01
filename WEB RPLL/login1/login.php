@@ -103,7 +103,7 @@ if (isset($_POST["login"])) {
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active animate__animated animate__slideInRight" style="margin-top: -189px;">
-					<img id="carousel1" src="carousel1.jpg" class="d-block w-100" alt="..." style="height: 734px;">
+					<img id="carousel1" src="..\assets\img\banner1.png" class="d-block w-100" alt="..." style="height: 734px;">
 					<div class="carousel-caption">
 						<h1 class="display-4 animate__animated animate__fadeInUp" id="carouselh1">Welcome to Module.org</h1>
 						<hr class="line" id="line">
