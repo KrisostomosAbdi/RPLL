@@ -169,7 +169,7 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
-						<h3><span class="orange-text">Our</span> Animals</h3>
+						<h3><span class="orange-text">Our</span> Products</h3>
 						<p>Hewan kami selalu terjaga mulai dari kebersihan, makanan, dan tempat mereka.</p>
 					</div>
 				</div>
