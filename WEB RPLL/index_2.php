@@ -1,5 +1,10 @@
 <?php
-
+// session_start();
+// //cek sudah login
+// if ( !isset($_SESSION["login"])) {
+//     header("Location: ../login.php");
+//     exit;
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
