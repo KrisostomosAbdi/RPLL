@@ -77,7 +77,7 @@
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="logout" href="login1\logout.php"><i class="fas fa-search"></i></a>
+										<a class="logout" href="login1\logout.php"><i class="fas fa-sign-out-alt"></i></a>
 									</div>
 								</li>
 							</ul>
