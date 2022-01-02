@@ -31,6 +31,9 @@ Kelompok : A11.4402-->
     </style>
 </head>
 <body>
+
+<button href="../../index.php" style="margin-left: 35px; margin-right: 35px;" type="button" class="btn btn-danger">BACK</button>
+
 <button style="margin-left: 35px; margin-right: 35px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">TAMBAH</button>
 <center>
 <div class="content">

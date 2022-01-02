@@ -1,3 +1,11 @@
+<?php
+  ob_start();
+  require_once('config/koneksi.php');
+  require_once('models/database.php');
+
+  $connection = new Database($host, $user, $pass, $database);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +15,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Single Product</title>
+	<title>Shop</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -63,18 +71,19 @@
 									
 								</li>
 								<li><a href="about.html">About</a></li>
-							
+								
+								
 								<li><a href="contact.html">Contact</a></li>
 								
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+										<a class="logout" href="login1\logout.php"><i class="fas fa-sign-out-alt"></i></a>
 									</div>
 								</li>
 							</ul>
 						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-sign-out-alt"></i></a>
 						<div class="mobile-menu"></div>
 						<!-- menu end -->
 					</div>
@@ -109,8 +118,8 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>See more Details</p>
-						<h1>Single Product</h1>
+						<p>Love and Cherish</p>
+						<h1>Shop</h1>
 					</div>
 				</div>
 			</div>
@@ -118,87 +127,17 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- single product -->
-	<div class="single-product mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5">
-					<div class="single-product-img">
-						<img src="assets/img/products/product-img-5.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-md-7">
-					<div class="single-product-content">
-						<h3>Maltese Dog</h3>
-						<p class="single-product-pricing"><span>Price</span> $89</p>
-						<p>Maltese adalah sejenis anjing kecil dalam kategori anjing mainan. Nama anjing ini yang berarti "dari Malta" dalam bahasa Inggris, biasanya tidak diterjemahkan dalam bahasa Indonesia. Salah satu ciri khas anjing Maltese ialah bahwa bulunya tidak rontok, bulunya lembut seperti sutra.</p>
-						<div class="single-product-form">
-							<form action="index.html">
-								<input type="number" placeholder="0">
-							</form>
-							<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-							<p><strong>Categories: </strong>Dog, Animals</p>
-						</div>
-						<h4>Share:</h4>
-						<ul class="product-share">
-							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href=""><i class="fab fa-twitter"></i></a></li>
-							<li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href=""><i class="fab fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end single product -->
+	<!-- products -->
+	<div class="product-section mt-150 mb-150">
 
-	<!-- more products -->
-	<div class="more-products mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-title">	
-						<h3><span class="orange-text">Related</span> Products</h3>
-						<p>Kami juga menawarkan untuk anda dengan harga yang sesuai dengan kriteria hewan kami.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-8.jpg" alt=""></a>
-						</div>
-						<h3>Cage</h3>
-						<p class="product-price"><span>Price</span> 12$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-4.jpg" alt=""></a>
-						</div>
-						<h3>Greyhound Dog</h3>
-						<p class="product-price"><span>Price</span> 79$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-6.jpg" alt=""></a>
-						</div>
-						<h3>Labrador Retriever Dog</h3>
-						<p class="product-price"><span>Price</span> 70$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
-	<!-- end more products -->
+	<div class="container">
+			<?php
+				include "views/barang.php";
+			?>
+
+		</div>
+	<!-- end products -->
 
 	
 

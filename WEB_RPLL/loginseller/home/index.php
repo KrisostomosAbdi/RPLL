@@ -164,7 +164,7 @@ if ( !isset($_SESSION["login"])) {
           <span><h5>PROFILE</h5></span>
     </div>
   </a>
-  <a href="Codeigniter3/index.php/stokbarang/panggil_barang" class="menu">
+  <a href="belajar/index.php" class="menu">
     <div style="background-color:rgba(128, 128, 128, 0.5);">
           <img class="icon1" src="../../assets/img/icon2.png" sizes="100%" width="90pt" height="90pt"><br>
           <h5>PRODUCT MANAGEMENT</h5>
