@@ -20,7 +20,7 @@ if (@$_GET['act'] == '') {
                     <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
                     <p style="text-align: justify; text-justify: inter-word;padding: 0px 10px 0px 10px;"><?php echo $data->stok_brg; ?></p>
 
-                    <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
         <?php
