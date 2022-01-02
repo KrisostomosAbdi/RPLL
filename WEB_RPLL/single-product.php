@@ -129,9 +129,9 @@
 				</div>
 				<div class="col-md-7">
 					<div class="single-product-content">
-						<h3 id="nm_brg"></h3>
-						<p class="single-product-pricing" id="hrg_brg"><span></span> $89</p>
-						<p id="stok_brg"></p>
+						<h3>Maltese Dog</h3>
+						<p class="single-product-pricing"><span>Price</span> $89</p>
+						<p>Maltese adalah sejenis anjing kecil dalam kategori anjing mainan. Nama anjing ini yang berarti "dari Malta" dalam bahasa Inggris, biasanya tidak diterjemahkan dalam bahasa Indonesia. Salah satu ciri khas anjing Maltese ialah bahwa bulunya tidak rontok, bulunya lembut seperti sutra.</p>
 						<div class="single-product-form">
 							<form action="index.html">
 								<input type="number" placeholder="0">
