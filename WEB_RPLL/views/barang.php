@@ -14,15 +14,12 @@
 				<div class="col-lg-4 col-md-6 text-center berry">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.php" 
-                            data-id="<?php echo $data->id_brg; ?>" 
-                            data-nama="<?php echo $data->nama_brg; ?>" 
-                            data-harga="<?php echo $data->harga_brg; ?>" 
-                            data-stok="<?php echo $data->stok_brg; ?>" 
-                            data-gbr="<?php echo $data->gbr_brg; ?>"><img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg;?>"</a>
+                            <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg;?>">
 						</div>
 						<h3><?php echo $data->nama_brg; ?></h3>
-						<p class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </p>
+						<h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
+						<p style="text-align: justify; text-justify: inter-word;padding: 0px 10px 0px 10px;"><?php echo $data->stok_brg; ?></p>
+
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
@@ -44,6 +41,7 @@
 					</div>
 				</div>
 			</div>
+            <br>
             
             <script src="assets/js/jquery-1.10.2.js"></script>
             <script type="text/javascript">

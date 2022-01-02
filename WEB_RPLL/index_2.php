@@ -92,25 +92,6 @@
 	</div>
 	<!-- end header -->
 
-	<!-- search area -->
-	<div class="search-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end search area -->
-
 	<!-- home page slider -->
 	<div class="homepage-slider">
 		<!-- single home slider -->
@@ -123,7 +104,7 @@
 								<p class="subtitle">Love and Cherish</p>
 								<h1>Just Love Them, Give the Best For Them</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">PetDictive Collection</a>
+									<a href="shop.php" class="boxed-btn">PetDictive Collection</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>
@@ -142,7 +123,7 @@
 								<p class="subtitle">Healthy Everyday</p>
 								<h1>99% Lice Free</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
+									<a href="shop.php" class="boxed-btn">Visit Shop</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>

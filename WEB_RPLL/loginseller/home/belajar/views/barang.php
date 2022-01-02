@@ -7,10 +7,7 @@
 
 <div class="row">
     <div class="col-lg-12">
-        <h1>Barang <small>Data Barang</small></h1>
-            <ol class="breadcrumb">
-                <li><a href="?page=dashboard"><i class="icon-dashboard"></i> Dashboard</a></li>
-            </ol>
+        <h1>List Produk</h1>
     </div>   
     
     <div class="row">
@@ -21,7 +18,7 @@
                         <th>No.</th>
                         <th>Nama Barang</th>
                         <th>Harga Barang</th>
-                        <th>Stock Barang</th>
+                        <th>Deskripsi Barang</th>
                         <th>Gambar Barang</th>
                         <th>Opsi</th>
                     </tr>
@@ -83,7 +80,7 @@
                               </div>
 
                               <div class="form-group">
-                                <label class="control-label" for="stok_brg">Stock Barang</label>
+                                <label class="control-label" for="stok_brg">Deskripsi Barang</label>
                                 <input type="text" name="stok_brg" class="form-control" id="stok_brg" required>
                               </div>
 
@@ -148,8 +145,8 @@
                               </div>
 
                               <div class="form-group">
-                                <label class="control-label" for="stok_brg">Stock Barang</label>
-                                <input type="number" name="stok_brg" class="form-control" id="stok_brg" required>
+                                <label class="control-label" for="stok_brg">Deskripsi Barang</label>
+                                <input type="text" name="stok_brg" class="form-control" id="stok_brg" required>
                               </div>
 
                               <div class="form-group">

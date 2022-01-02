@@ -99,13 +99,7 @@ if ( !isset($_SESSION["login"])) {
           <a class="nav-link" href="#"><b>HOME<span class="sr-only">(current)</b></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><b>SPONSOR</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><b>ABOUT ME</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><b>BLOG</b></a>
+          <a class="nav-link" href="../../index_2.php"><b>SHOP</b></a>
         </li>
       </ul>
       <ul class="navbar-nav">

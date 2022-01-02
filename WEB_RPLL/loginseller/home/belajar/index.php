@@ -11,7 +11,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tampil Data OOP</title>
+    <title>Product Management</title>
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/sb-admin.css" rel="stylesheet">
@@ -34,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="">OOP</a>
+          <a class="navbar-brand" href="">PRODUCT MANAGEMENT</a>
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -55,14 +55,7 @@
 
           <ul class="nav navbar-nav navbar-right navbar-user">
             <li class="dropdown user-dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Candhy Fadhila <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge">7</span></a></li>
-                <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
-                <li class="divider"></li>
-                <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
-              </ul>
+              <a href="../index.php">BACK</a>
             </li>
           </ul>
         </div>
