@@ -87,7 +87,7 @@ if ( !isset($_SESSION["login"])) {
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-gradient-warning">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="logo1.png" width="40" height="40" alt="" loading="lazy">
+      <img src="../../assets/img/logo.png" width="40" height="40" alt="" loading="lazy">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -128,7 +128,7 @@ if ( !isset($_SESSION["login"])) {
 <div class="intro">
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <img class="cheese" src="cheese.png" width="250pt" height="250pt"><br>
+      <img class="cheese" src="../../assets/img/icon2.png" width="250pt" height="250pt"><br>
       <h1 class="display-4"> 
         <?php 
             date_default_timezone_set('Asia/Jakarta');
@@ -160,42 +160,16 @@ if ( !isset($_SESSION["login"])) {
 <div class="row">
   <a href="profile.php" class="menu">
     <div style="background-color:rgba(211, 211, 211, 0.5);">
-          <img class="icon" src="icon.png" sizes="100%" width="90pt" height="90pt"><br>
+          <img class="icon" src="../../assets/img/icon2.png" sizes="100%" width="90pt" height="90pt"><br>
           <span><h5>PROFILE</h5></span>
     </div>
   </a>
   <a href="#" class="menu">
     <div style="background-color:rgba(128, 128, 128, 0.5);">
-          <img class="icon1" src="icon1.png" sizes="100%" width="90pt" height="90pt"><br>
-          <h5>GALLERY</h5>
+          <img class="icon1" src="../../assets/img/icon2.png" sizes="100%" width="90pt" height="90pt"><br>
+          <h5>PRODUCT MANAGEMENT</h5>
       </div>
     </a>
-    <a href="#" class="menu">
-      <div style="background-color:rgba(211, 211, 211, 0.5);">
-          <img class="icon1" src="icon1.png" sizes="100%" width="90pt" height="90pt"><br>
-          <h5>NEWS</h5>
-      </div>
-    </a>
-    <a href="#" class="menu">
-      <div style="background-color:rgba(128, 128, 128, 0.5);">
-          <img class="icon" src="icon.png" sizes="100%" width="90pt" height="90pt"><br>
-          <h5>CALENDAR</h5>
-      </div>
-    </a>
-</div>
-
-<div class="aboutme">
-    <h2 style="padding-bottom: 10pt;">About Me</h2>
-    <h5>Made by Krisostomos Abdi</h5>
-    <h5 style="padding-bottom: 10pt;">A11.2019.11695</h5>
-    <h3 style="padding-bottom: 5pt;"> MY CONTACT</h3><br>
-    <div class="sosmed">
-        <div><a href="#" class="fa fa-facebook"><img class="icon-soc" src="facebook.png" sizes="100%" width="50pt" height="50pt"></a></div>
-        <div><a href="#" class="fa fa-twitter"><img class="icon-soc" src="twitter.png" sizes="100%" width="50pt" height="50pt"></a></div>
-        <div><a href="#" class="fa fa-instagram"><img class="icon-soc" src="instagram.png" sizes="100%" width="50pt" height="50pt"></a></div>
-        <div><a href="#" class="fa fa-pinterest"><img class="icon-soc" src="pinterest.png" sizes="100%" width="50pt" height="50pt"></a></div>
-        <div><a href="#" class="fa fa-gmail"><img class="icon-soc" src="gmail.png" sizes="100%" width="58pt" height="50pt"></a></div>
-    </div>
 </div>
 
 <script>

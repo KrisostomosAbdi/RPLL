@@ -16,6 +16,7 @@ if ( !isset($_SESSION["login"])) {
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet"  type="text/css" href="profile.css">
 
     <title>Hello, world!</title>
   </head>
@@ -26,29 +27,72 @@ if ( !isset($_SESSION["login"])) {
     }
   </style>
   <body>
-  <div class="content">
-    <?php
-      if($_SESSION['uname'])
-      {
-        $SESSION = $_SESSION['uname'];
-        $result = mysqli_query($conn, "select * from `user` where `username` = '$SESSION'");
-        $show=mysqli_fetch_assoc($result);
-        if($show){
-    ?>
-        <img class="photo" src="../image/<?php echo "{$show['foto']}";?>">
-        <br>
-        Nama : 
-        <?php echo "{$show['nama']}";?>
-        <br>
-        Usia :
-        <?php echo "{$show['usia']}"; ?>
-        <br>
-        Alamat :
-        <?php
-          echo "{$show['alamat']}";
-          }
-        }
-        ?>
+  <div class="container">
+    <div class="main-body">
+   
+          <div class="row gutters-sm">
+            <div class="col-md-12 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="d-flex flex-column align-items-center text-center">
+                  <?php
+                    if($_SESSION['uname'])
+                    {
+                      $SESSION = $_SESSION['uname'];
+                      $result = mysqli_query($conn, "select * from `user` where `username` = '$SESSION'");
+                      $show=mysqli_fetch_assoc($result);
+                      if($show){
+                    ?>
+                    <img src="../image/<?php echo "{$show['foto']}";?>" alt="Admin" class="rounded-circle" width="150">
+                    <div class="mt-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+                        
+            <div class="col-md-12 mb-3">
+              <div class="card ">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Nama</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      <?php echo "{$show['nama']}";?>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Usia</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      <?php echo "{$show['usia']}"; ?>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Alamat</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      <?php
+                        echo "{$show['alamat']}";
+                          }
+                        }
+                      ?>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -64,3 +108,4 @@ if ( !isset($_SESSION["login"])) {
     -->
   </body>
 </html>
+
