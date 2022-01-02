@@ -187,7 +187,7 @@
 						</div>
 						<h3>Persia</h3>
 						<p class="product-price"><span>Price</span> 51$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<a href="login1/login.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 text-center">
@@ -197,7 +197,7 @@
 						</div>
 						<h3>Cat Toys</h3>
 						<p class="product-price"><span>Price</span> 8$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<a href="login1/login.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
@@ -207,7 +207,7 @@
 						</div>
 						<h3>Greyhound</h3>
 						<p class="product-price"><span>Price</span> 79$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+						<a href="login1/login.php" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
 			</div>
