@@ -113,7 +113,7 @@
 							<h1>Just love them, give the best for them</h1>
 							<div class="hero-btns">
 								<a href="login1/login.php" class="boxed-btn">Order Now</a>
-								<a href="contact.html" class="bordered-btn">Contact Us</a>
+								<a href="contact.html" class="bordered-btn">Login as Seller</a>
 							</div>
 						</div>
 					</div>
