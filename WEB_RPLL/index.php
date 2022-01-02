@@ -183,7 +183,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
+							<img src="assets/img/products/product-img-1.jpg" alt="">
 						</div>
 						<h3>Persia</h3>
 						<p class="product-price"><span>Price</span> 51$ </p>
@@ -193,7 +193,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-10.jpg" alt=""></a>
+							<img src="assets/img/products/product-img-10.jpg" alt="">
 						</div>
 						<h3>Cat Toys</h3>
 						<p class="product-price"><span>Price</span> 8$ </p>
@@ -203,7 +203,7 @@
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-4.jpg" alt=""></a>
+							<img src="assets/img/products/product-img-4.jpg" alt="">
 						</div>
 						<h3>Greyhound</h3>
 						<p class="product-price"><span>Price</span> 79$ </p>
@@ -375,7 +375,7 @@
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+
 						</div>
 					</div>
 				</div>
@@ -391,7 +391,7 @@
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+
 						</div>
 					</div>
 				</div>
@@ -407,14 +407,9 @@
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<a href="news.html" class="boxed-btn">More News</a>
 				</div>
 			</div>
 		</div>

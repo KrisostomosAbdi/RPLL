@@ -142,7 +142,7 @@
 								<p class="subtitle">Mega Sale Going On!</p>
 								<h1>Get Early Year Discount</h1>
 								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
+									<a href="shop.php" class="boxed-btn">Visit Shop</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>
 								</div>
 							</div>
@@ -214,7 +214,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
+							<img src="assets/img/products/product-img-1.jpg" alt="">
 						</div>
 						<h3>Persia</h3>
 						<p class="product-price"><span>Price</span> 51$ </p>
@@ -224,7 +224,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-10.jpg" alt=""></a>
+							<img src="assets/img/products/product-img-10.jpg" alt="">
 						</div>
 						<h3>Cat Toys</h3>
 						<p class="product-price"><span>Price</span> 8$ </p>
@@ -234,7 +234,7 @@
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-4.jpg" alt=""></a>
+							<img src="assets/img/products/product-img-4.jpg" alt="">
 						</div>
 						<h3>Greyhound</h3>
 						<p class="product-price"><span>Price</span> 79$ </p>
@@ -375,7 +375,7 @@
 		<div class="container">
 			<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
 			<div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
-			<a href="shop.html" class="cart-btn btn-lg">Shop Now</a>
+			<a href="shop.php" class="cart-btn btn-lg">Shop Now</a>
 		</div>
 	</section>
 	<!-- end shop banner -->
