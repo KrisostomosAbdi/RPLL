@@ -59,7 +59,7 @@ if ( !isset($_SESSION["login"])) {
                     <div class="col-sm-3">
                       <h6 class="mb-0">Nama</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
+                    <div class="col-sm-9 ">
                       <?php echo "{$show['nama']}";?>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ if ( !isset($_SESSION["login"])) {
                     <div class="col-sm-3">
                       <h6 class="mb-0">Usia</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
+                    <div class="col-sm-9 ">
                       <?php echo "{$show['usia']}"; ?>
                     </div>
                   </div>
@@ -77,7 +77,7 @@ if ( !isset($_SESSION["login"])) {
                     <div class="col-sm-3">
                       <h6 class="mb-0">Alamat</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
+                    <div class="col-sm-9">
                       <?php
                         echo "{$show['alamat']}";
                           }
@@ -85,8 +85,10 @@ if ( !isset($_SESSION["login"])) {
                       ?>
                     </div>
                   </div>
+                  <hr>
                   <div class="row">
                     <div class="col-sm-12">
+                      <a class="btn btn-info " href="index.php">Back to Menu</a>
                     </div>
                   </div>
                 </div>
