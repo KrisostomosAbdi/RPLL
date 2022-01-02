@@ -60,7 +60,7 @@
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a href="index.html">
+							<a href="index_2.php">
 								<img src="assets/img/logo.png" alt="">
 							</a>
 						</div>
@@ -406,7 +406,7 @@
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+
 						</div>
 					</div>
 				</div>
@@ -422,7 +422,7 @@
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+
 						</div>
 					</div>
 				</div>
@@ -438,16 +438,12 @@
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<a href="news.html" class="boxed-btn">More News</a>
-				</div>
-			</div>
+
 		</div>
 	</div>
 	<!-- end latest news -->
