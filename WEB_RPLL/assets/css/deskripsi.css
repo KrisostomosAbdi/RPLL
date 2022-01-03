@@ -1,7 +1,7 @@
 .collapsible {
     cursor: pointer;
     padding: 15px;
-    width: 70%;
+    width: 50%;
     border: none;
     text-align: left;
     outline: none;
@@ -9,10 +9,12 @@
     margin-top: 5px;
     display: inline-block;
 }
-.cart-btn2{
+
+.cart-btn2 {
     margin-top: 10dp;
     margin-bottom: 10dp;
 }
+
 .collapsible:after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */

@@ -10,29 +10,29 @@ if (@$_GET['act'] == '') {
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 text-center">
             <?php
-                $no = 1;
-                $tampil = $brg->tampil();
-                while ($data = $tampil->fetch_object()) {
+            $no = 1;
+            $tampil = $brg->tampil();
+            while ($data = $tampil->fetch_object()) {
             ?>
-            <div class="col mb-4">
-                <a href="" class="cardlink">
-                <div class="card">
-                    <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>" class="img-card card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
-                        <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
-                        <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-
-                        <a class="cart-btn2 collapsible">Deskripsi</a>
-                        <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
-                            <p><?php echo $data->stok_brg; ?></p>
+                <div class="col mb-4">
+                    <a href="" class="cardlink">
+                        <div class="card">
+                            <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>" class="img-card card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
+                                <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
+                                <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                                <br>
+                                <a class="cart-btn2 collapsible">Deskripsi</a>
+                                <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
+                                    <p><?php echo $data->stok_brg; ?></p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                </a>
-            </div>
             <?php
-                }
+            }
             ?>
         </div>
     </div>
