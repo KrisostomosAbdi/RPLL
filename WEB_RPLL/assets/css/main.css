@@ -1965,7 +1965,7 @@ span.comment-date {
 }
 
 .cart-banner .image-column .price-box {
-  position: absolute;
+  position: relative;
   left: 15%;
   top: -30px;
   width: 110px;

@@ -250,7 +250,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					<a href="login1/login.php" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 				</div>
 			</div>
 		</div>
@@ -327,7 +327,7 @@
 						<h2>We are <span class="orange-text">PetDictive</span></h2>
 						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
-						<a href="about.html" class="boxed-btn mt-4">know more</a>
+						<a href="login1/login.php" class="boxed-btn mt-4">know more</a>
 					</div>
 				</div>
 			</div>
@@ -437,8 +437,8 @@
 						<h2 class="widget-title">Pages</h2>
 						<ul>
 							<li><a href="index.php">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="login1/login.php">About</a></li>
+							<li><a href="login1/login.php">Contact</a></li>
 						</ul>
 					</div>
 				</div>
