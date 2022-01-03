@@ -400,7 +400,7 @@
 							<h3><a href="">Menurut ilmuan kucing dapat meredakan stres.</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
-								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
+								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
 							</p>
 							<p class="excerpt">Vivamus lacus enim, pulvinar vel nulla sed, scelerisque rhoncus nisi. Praesent vitae mattis nunc, egestas viverra eros.</p>
 
