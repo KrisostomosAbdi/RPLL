@@ -25,13 +25,19 @@ if (@$_GET['act'] == '') {
                                 <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
                                 <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
                                 <div class="star">
-                                    <i class="fas fa-star"></i>
+                                <h4><?php echo $data->rating; ?><i class="fas fa-star"></i></h4>
                                 </div>
                                 <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                                 <br>
                                 <a class="cart-btn2 collapsible">Deskripsi</a>
                                 <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
                                     <p><?php echo $data->stok_brg; ?></p>
+
+                                    Write your review
+                                    <form action="index.html">
+						        		<p><textarea cols="35" rows="5" placeholder="Write Your Review Here"></textarea></p>
+                                        <button type="SUBMIT" href="barang.php" value="SUBMIT">SUBMIT</button>
+						        	</form>
                                 </div>
                             </div>
                         </div>
