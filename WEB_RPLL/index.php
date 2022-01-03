@@ -340,7 +340,7 @@
 		<div class="container">
 			<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
 			<div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
-			<a href="shop.html" class="cart-btn btn-lg">Shop Now</a>
+			<a href="login1/login.php" class="cart-btn btn-lg">Shop Now</a>
 		</div>
 	</section>
 	<!-- end shop banner -->
@@ -361,11 +361,11 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="single-latest-news">
-						<a href="single-news.html">
+						<a href="">
 							<div class="latest-news-bg news-bg-1"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="single-news.html">Beberapa fakta menarik tentang toko hewan.</a></h3>
+							<h3><a href="">Beberapa fakta menarik tentang toko hewan.</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
@@ -377,11 +377,11 @@
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="single-latest-news">
-						<a href="single-news.html">
+						<a href="">
 							<div class="latest-news-bg news-bg-2"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="single-news.html">Begini kalau kamu tidak punya kandang hewan.</a></h3>
+							<h3><a href="">Begini kalau kamu tidak punya kandang hewan.</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2021</span>
@@ -393,11 +393,11 @@
 				</div>
 				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
 					<div class="single-latest-news">
-						<a href="single-news.html">
+						<a href="">
 							<div class="latest-news-bg news-bg-3"></div>
 						</a>
 						<div class="news-text-box">
-							<h3><a href="single-news.html">Menurut ilmuan kucing dapat meredakan stres.</a></h3>
+							<h3><a href="">Menurut ilmuan kucing dapat meredakan stres.</a></h3>
 							<p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
