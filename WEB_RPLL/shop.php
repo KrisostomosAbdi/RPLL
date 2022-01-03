@@ -60,7 +60,7 @@ $connection = new Database($host, $user, $pass, $database);
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a href="index.html">
+							<a href="index_2.php">
 								<img src="assets/img/logo.png" alt="">
 							</a>
 						</div>
@@ -110,10 +110,11 @@ $connection = new Database($host, $user, $pass, $database);
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- products -->
-	<div class="product-section mt-150 mb-150">
+	<!-- shop -->
+	<div class="product-section mt-100 mb-100">
 
 	</div>
+
 	<div class="container">
 		<?php
 		include "views/barang.php";
@@ -121,6 +122,17 @@ $connection = new Database($host, $user, $pass, $database);
 
 	</div>
 	<!-- end products -->
+
+	<!-- cart -->
+	<div class="product-section mt-150 mb-150">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="section-title">
+					<h3><span class="orange-text">Our</span> Cart</h3>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- cart -->
 	<div class="cart-section mt-150 mb-150">
@@ -142,22 +154,22 @@ $connection = new Database($host, $user, $pass, $database);
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
 									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
-									<td class="product-name">Strawberry</td>
-									<td class="product-price">$85</td>
+									<td class="product-name">Persian Cat</td>
+									<td class="product-price">$51</td>
 									<td class="product-quantity"><input type="number" placeholder="0"></td>
 								</tr>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
-									<td class="product-name">Berry</td>
-									<td class="product-price">$70</td>
+									<td class="product-image"><img src="assets/img/products/product-img-4.jpg" alt=""></td>
+									<td class="product-name">Greyhound Dog</td>
+									<td class="product-price">$79</td>
 									<td class="product-quantity"><input type="number" placeholder="0"></td>
 								</tr>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
-									<td class="product-name">Lemon</td>
-									<td class="product-price">$35</td>
+									<td class="product-image"><img src="assets/img/products/product-img-8.jpg" alt=""></td>
+									<td class="product-name">Cage</td>
+									<td class="product-price">$12</td>
 									<td class="product-quantity"><input type="number" placeholder="0"></td>
 								</tr>
 							</tbody>
@@ -177,7 +189,7 @@ $connection = new Database($host, $user, $pass, $database);
 							<tbody>
 								<tr class="total-data">
 									<td><strong>Total: </strong></td>
-									<td>$545</td>
+									<td>$142</td>
 								</tr>
 							</tbody>
 						</table>
@@ -190,7 +202,7 @@ $connection = new Database($host, $user, $pass, $database);
 					<div class="coupon-section">
 						<h3>Apply Coupon</h3>
 						<div class="coupon-form-wrap">
-							<form action="index.html">
+							<form action="">
 								<p><input type="text" placeholder="Coupon"></p>
 								<p><input type="submit" value="Apply"></p>
 							</form>
@@ -226,7 +238,7 @@ $connection = new Database($host, $user, $pass, $database);
 					<div class="footer-box pages">
 						<h2 class="widget-title">Pages</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="services.html">Shop</a></li>
 							<li><a href="news.html">News</a></li>
@@ -238,7 +250,7 @@ $connection = new Database($host, $user, $pass, $database);
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Subscribe</h2>
 						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
+						<form action="index_2.php">
 							<input type="email" placeholder="Email">
 							<button type="submit"><i class="fas fa-paper-plane"></i></button>
 						</form>
