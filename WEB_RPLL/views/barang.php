@@ -5,44 +5,49 @@ $brg = new Barang($connection);
 if (@$_GET['act'] == '') {
 ?>
     <link rel="stylesheet" href="assets/css/deskripsi.css">
-    <div class="row product-lists">
-        <?php
-        $no = 1;
-        $tampil = $brg->tampil();
-        while ($data = $tampil->fetch_object()) {
-        ?>
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="single-product-item">
-                    <div class="product-image">
-                        <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>">
-                    </div>
-                    <button type="button" class="collapsible">Deskripsi</button>
-                    <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
-                        <p><?php echo $data->stok_brg; ?></p>
-                    </div>
-                    <br>
-                    <h3><?php echo $data->nama_brg; ?></h3>
-                    <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
-                    <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-                </div>
-            </div>
-        <?php
-        }
-        ?>
+    <link rel="stylesheet" href="assets/css/css_product.css">
+    <!--Menu-->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 text-center">
+            <?php
+                $no = 1;
+                $tampil = $brg->tampil();
+                while ($data = $tampil->fetch_object()) {
+            ?>
+            <div class="col mb-4">
+                <a href="" class="cardlink">
+                <div class="card">
+                    <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>" class="img-card card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
+                        <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
+                        <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 
+                        <a class="cart-btn collapsible">Deskripsi</a>
+                        <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
+                            <p><?php echo $data->stok_brg; ?></p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <?php
+                }
+            ?>
+        </div>
     </div>
+
     <script>
         var coll = document.getElementsByClassName("collapsible");
         var i;
-
         for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function() {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
                 } else {
-                    content.style.display = "block";
+                    content.style.maxHeight = content.scrollHeight + "px";
                 }
             });
         }

@@ -479,6 +479,12 @@ a.cart-btn {
   border-radius: 50px;
 }
 
+a.boxed-btn,
+a.bordered-btn,
+a.cart-btn2 {
+  border-radius: 50px;
+}
+
 .section-title h3 {
   font-size: 40px;
   position: relative;
@@ -1289,6 +1295,16 @@ a.cart-btn:hover {
   color: #F28123;
 }
 
+a.cart-btn2 {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.cart-btn2:hover {
+  background-color: #051922;
+  color: #F28123;
+}
 .recent-posts ul li {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2492,6 +2508,18 @@ a.cart-btn {
 }
 
 a.cart-btn i {
+  margin-right: 5px;
+}
+
+a.cart-btn2 {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #F28123;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+a.cart-btn2 i {
   margin-right: 5px;
 }
 
