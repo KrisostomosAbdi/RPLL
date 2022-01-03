@@ -8,7 +8,7 @@ if (@$_GET['act'] == '') {
     <link rel="stylesheet" href="assets/css/css_product.css">
     <!--Menu-->
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 text-center">
+        <div class="row row-cols-1 row-cols-md-3 text-center">
             <?php
                 $no = 1;
                 $tampil = $brg->tampil();
@@ -23,7 +23,7 @@ if (@$_GET['act'] == '') {
                         <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
                         <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 
-                        <a class="cart-btn collapsible">Deskripsi</a>
+                        <a class="cart-btn2 collapsible">Deskripsi</a>
                         <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
                             <p><?php echo $data->stok_brg; ?></p>
                         </div>
