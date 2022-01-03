@@ -4,8 +4,11 @@ $brg = new Barang($connection);
 
 if (@$_GET['act'] == '') {
 ?>
+    <link href="https://fontawesome.com/v4.7.0/icons/">
+
     <link rel="stylesheet" href="assets/css/deskripsi.css">
     <link rel="stylesheet" href="assets/css/css_product.css">
+    <link rel="stylesheet" href="assets/css/rating.css">
     <!--Menu-->
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 text-center">
@@ -15,12 +18,15 @@ if (@$_GET['act'] == '') {
             while ($data = $tampil->fetch_object()) {
             ?>
                 <div class="col mb-4">
-                    <a href="" class="cardlink">
+                    <a class="cardlink">
                         <div class="card">
                             <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>" class="img-card card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
                                 <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                </div>
                                 <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                                 <br>
                                 <a class="cart-btn2 collapsible">Deskripsi</a>

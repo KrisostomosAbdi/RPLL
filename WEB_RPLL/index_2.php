@@ -121,7 +121,7 @@
 						<div class="hero-text">
 							<div class="hero-text-tablecell">
 								<p class="subtitle">Healthy Everyday</p>
-								<h1>99% Lice Free</h1>
+								<h1>99% Flea Free</h1>
 								<div class="hero-btns">
 									<a href="shop.php" class="boxed-btn">Visit Shop</a>
 									<a href="contact.html" class="bordered-btn">Contact Us</a>

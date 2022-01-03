@@ -1,0 +1,8 @@
+.star {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+.star i {
+    color: #ff9529;
+}
