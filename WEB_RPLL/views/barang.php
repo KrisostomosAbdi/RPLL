@@ -4,25 +4,25 @@ $brg = new Barang($connection);
 
 if (@$_GET['act'] == '') {
 ?>
-
+    <link rel="stylesheet" href="assets/css/deskripsi.css">
     <div class="row product-lists">
         <?php
         $no = 1;
         $tampil = $brg->tampil();
         while ($data = $tampil->fetch_object()) {
         ?>
-            <div class="col-lg-4 col-md-6 text-center berry">
+            <div class="col-lg-4 col-md-6 text-center">
                 <div class="single-product-item">
                     <div class="product-image">
                         <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>">
                     </div>
                     <h3><?php echo $data->nama_brg; ?></h3>
                     <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
-                    <button type="button" class="collapsible">Open Collapsible</button>
-                    <div class="content" style="text-align: justify; text-justify: inter-word;padding: 0px 10px 0px 10px;  display: none;overflow: hidden;">
+                    <button type="button" class="collapsible">Deskripsi</button>
+                    <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px;  display: none;overflow: hidden;">
                         <p><?php echo $data->stok_brg; ?></p>
                     </div>
-                    
+
                     <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
@@ -36,15 +36,15 @@ if (@$_GET['act'] == '') {
         var i;
 
         for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-            content.style.display = "none";
-            } else {
-            content.style.display = "block";
-            }
-        });
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
         }
     </script>
     <script src="assets/js/jquery-1.10.2.js"></script>
