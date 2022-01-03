@@ -18,8 +18,11 @@ if (@$_GET['act'] == '') {
                     </div>
                     <h3><?php echo $data->nama_brg; ?></h3>
                     <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
-                    <p style="text-align: justify; text-justify: inter-word;padding: 0px 10px 0px 10px;"><?php echo $data->stok_brg; ?></p>
-
+                    <button type="button" class="collapsible">Open Collapsible</button>
+                    <div class="content" style="text-align: justify; text-justify: inter-word;padding: 0px 10px 0px 10px;  display: none;overflow: hidden;">
+                        <p><?php echo $data->stok_brg; ?></p>
+                    </div>
+                    
                     <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
@@ -28,8 +31,22 @@ if (@$_GET['act'] == '') {
         ?>
 
     </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>
     <script src="assets/js/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         $(document).on("click", "#edit_brg", function() {
