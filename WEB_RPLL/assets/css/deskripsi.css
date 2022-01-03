@@ -9,7 +9,10 @@
     margin-top: 5px;
     display: inline-block;
 }
-
+.cart-btn2{
+    margin-top: 10dp;
+    margin-bottom: 10dp;
+}
 .collapsible:after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */
