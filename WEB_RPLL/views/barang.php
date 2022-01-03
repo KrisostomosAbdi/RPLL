@@ -16,13 +16,13 @@ if (@$_GET['act'] == '') {
                     <div class="product-image">
                         <img src="loginseller/home/belajar/assets/img/barang/<?php echo $data->gbr_brg; ?>">
                     </div>
-                    <h3><?php echo $data->nama_brg; ?></h3>
-                    <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
                     <button type="button" class="collapsible">Deskripsi</button>
-                    <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px;  display: none;overflow: hidden;">
+                    <div class="content" style="text-align: justify; padding: 0px 10px 0px 10px; ">
                         <p><?php echo $data->stok_brg; ?></p>
                     </div>
-
+                    <br>
+                    <h3><?php echo $data->nama_brg; ?></h3>
+                    <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
                     <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                 </div>
             </div>
