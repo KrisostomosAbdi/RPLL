@@ -10,6 +10,10 @@
     display: inline-block;
 }
 
+#submit {
+    align-items: center;
+}
+
 .cart-btn2 {
     margin-top: 10dp;
     margin-bottom: 10dp;
