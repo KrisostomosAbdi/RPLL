@@ -69,13 +69,8 @@ $connection = new Database($host, $user, $pass, $database);
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-<<<<<<< HEAD
 								<li class="current-list-item"><a href="index_2.php">Home</a>
-									
-=======
-								<li class="current-list-item"><a href="#">Home</a>
 
->>>>>>> 981668008e2f16913fd7a148eb3c4e766bcb5087
 								</li>
 								<li><a href="about.html">About</a></li>
 
