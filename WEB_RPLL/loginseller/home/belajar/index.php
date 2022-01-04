@@ -55,7 +55,7 @@
 
           <ul class="nav navbar-nav navbar-right navbar-user">
             <li class="dropdown user-dropdown">
-              <a href="../index.php">BACK</a>
+              <a href="../index.php"><b>BACK</b></a>
             </li>
           </ul>
         </div>
