@@ -1305,6 +1305,7 @@ a.cart-btn2:hover {
   background-color: #051922;
   color: #F28123;
 }
+
 .recent-posts ul li {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2243,11 +2244,11 @@ a.video-play-btn {
 }
 
 .team-bg-3 {
-  background-image: url(../img/team/team-3.png);
+  background-image: url(../img/team/Frame.png);
 }
 
 .team-bg-4 {
-  background-image: url(../img/team/team-4.jpg);
+  background-image: url(../img/team/Frame.png);
 }
 
 .team-bg {
