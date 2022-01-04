@@ -293,10 +293,10 @@
 						</div>
 						<div class="single-testimonial-slider">
 							<div class="client-avater">
-								<img src="assets/img/avaters/avatar3.png" alt="">
+								<img src="assets/img/avaters/Frame.png" alt="">
 							</div>
 							<div class="client-meta">
-								<h3>Jacob Sikim <span>Local shop owner</span></h3>
+								<h3>themewagon.com <span>Template Designer</span></h3>
 								<p class="testimonial-body">
 									" Sed ut perspiciatis unde omnis iste natus error veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
 								</p>
