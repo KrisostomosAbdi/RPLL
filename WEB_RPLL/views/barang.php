@@ -25,7 +25,7 @@ if (@$_GET['act'] == '') {
                                 <h5 class="card-title"><?php echo $data->nama_brg; ?></h5>
                                 <h4 class="product-price"><span><?php echo $data->harga_brg; ?>$</span> </h4>
                                 <div class="star">
-                                    <h4 class="small"><?php echo $data->rating; ?><i class="fas fa-star"></i></h4>
+                                    <h4 class="small">Rating <?php echo $data->rating; ?><i class="fas fa-star"></i></h4>
                                 </div>
                                 <a class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                                 <br>
