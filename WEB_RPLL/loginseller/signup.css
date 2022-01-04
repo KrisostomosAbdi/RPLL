@@ -15,7 +15,7 @@
 
 /*body*/
   body{
-    background-color: #ffca8a;
+    background-color: #019ed3;
     background-size: cover;
   }
   .row {  
@@ -45,7 +45,7 @@
   .login{
     flex: 25%;
     text-align: center;
-    background-color: #ffca8a;
+    background-color: #019ed3;
     margin-right: -15px;
   }
   .login .second{
