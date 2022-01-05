@@ -4,6 +4,12 @@ require_once('config/koneksi.php');
 require_once('models/database.php');
 
 $connection = new Database($host, $user, $pass, $database);
+// session_start();
+// //cek sudah login
+// if ( !isset($_SESSION["login"])) {
+//     header("Location: login1/login.php");
+//     exit;
+// }
 ?>
 
 <!DOCTYPE html>

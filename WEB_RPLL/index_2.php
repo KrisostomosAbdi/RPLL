@@ -1,11 +1,11 @@
-<?php
-// session_start();
-// //cek sudah login
-// if ( !isset($_SESSION["login"])) {
-//     header("Location: ../login.php");
-//     exit;
-// }
-?>
+<!-- <?php
+session_start();
+//cek sudah login
+if ( !isset($_SESSION["login"])) {
+    header("Location: login1/login.php");
+    exit;
+}
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -517,7 +517,9 @@
 		</div>
 	</div>
 	<!-- end copyright -->
+	<!--Chatroom-->
 
+	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="5e3c2746-8af0-43f8-9fca-9553907b7a11";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->

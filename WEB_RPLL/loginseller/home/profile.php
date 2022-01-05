@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 session_start();
 include_once("function.php");
 //cek sudah login
@@ -6,7 +6,7 @@ if ( !isset($_SESSION["login"])) {
     header("Location: ../login.php");
     exit;
 }
-?>
+?> -->
 <!doctype html>
 <html lang="en">
   <head>
